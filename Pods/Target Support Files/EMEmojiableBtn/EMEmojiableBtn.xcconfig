@@ -1,0 +1,8 @@
+CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR/EMEmojiableBtn
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/EMEmojiableBtn" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/Bohr" "${PODS_ROOT}/Headers/Public/CNPPopupController" "${PODS_ROOT}/Headers/Public/ChameleonFramework" "${PODS_ROOT}/Headers/Public/DZNEmptyDataSet" "${PODS_ROOT}/Headers/Public/EChart" "${PODS_ROOT}/Headers/Public/EHHorizontalSelectionView" "${PODS_ROOT}/Headers/Public/EMEmojiableBtn" "${PODS_ROOT}/Headers/Public/JBChartView" "${PODS_ROOT}/Headers/Public/JTMaterialSwitch" "${PODS_ROOT}/Headers/Public/M13ProgressSuite" "${PODS_ROOT}/Headers/Public/MKDropdownMenu" "${PODS_ROOT}/Headers/Public/Onboard" "${PODS_ROOT}/Headers/Public/RESideMenu" "${PODS_ROOT}/Headers/Public/RKDropdownAlert" "${PODS_ROOT}/Headers/Public/SKSplashView" "${PODS_ROOT}/Headers/Public/VBFPopFlatButton" "${PODS_ROOT}/Headers/Public/pop"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
